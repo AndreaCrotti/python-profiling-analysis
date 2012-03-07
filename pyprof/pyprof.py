@@ -5,7 +5,6 @@ except ImportError:
 
 import logging
 import pstats
-import sys
 
 
 NUM_EXPENSIVE = 20

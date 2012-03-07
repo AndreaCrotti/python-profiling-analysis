@@ -1,4 +1,6 @@
 * Tasks
+** TODO see how to implement an interactive graph analysis, might be done with Chaco or matplotlib
+** TODO create the argument parsing library, to use that as a driver for what to do next
 
 # Local Variables:
 # mode: org
