@@ -10,9 +10,13 @@ def parse_arguments():
                         action='store_true')
 
     parser.add_argument('-fi', '--filter_include',
-                        action='list of modules to include')
+                        help='list of modules to include')
 
     parser.add_argument('-fe', '--filter_exclude',
-                        action='list of modules to exclude')
+                        help='list of modules to exclude')
 
     return parser.parse_args()
+
+
+def main():
+    ns = parse_arguments()
